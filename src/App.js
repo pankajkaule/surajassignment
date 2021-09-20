@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss";
+// import Example from "./component/bigcircle/Example";
+import Mycomp from "./component/test/Mycomp";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return <div>
+   
+    {/* <div style={{}}>
+    <div id="big-circle" className="circle big">
+
+    <div className="circle one"></div>
+    <div className="circle two"></div>
+    <div className="circle three"></div>
+    <div className="circle four"></div>
+    <div className="circle five"></div>
+    <div className="circle six"></div>
     </div>
-  );
+    <div><div><Example/></div></div>
+     
+</div> */}
+<Mycomp/>
+
+  </div>;
 }
 
 export default App;
